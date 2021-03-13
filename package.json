@@ -1,4 +1,5 @@
 {
+  "private": true,
   "name": "synapse-plugin-switchboard",
   "description": "Access elementary OS settings from Synapse",
   "license": "GPL-3.0",
