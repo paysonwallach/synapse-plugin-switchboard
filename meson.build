@@ -47,6 +47,12 @@ config_dep = declare_dependency(
   sources: config_h
 )
 
+add_project_arguments([
+    '-DG_LOG_DOMAIN="@0@"'.format(meson.project_name())
+  ],
+  language:'c'
+)
+
 shared_library(
   'switchboardplugin',
   files(
